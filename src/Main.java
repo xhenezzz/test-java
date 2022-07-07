@@ -53,7 +53,7 @@ public class Main {
         }
         for(int i = 0; i < arr.length; i++){
             arr[i] += i;
-            System.out.print(arr[i]);
+            System.out.print(arr[i] + " ");
         }
         //Напишите программу для нахождения второго по величине числа из массива
         int max = 0;
@@ -68,5 +68,13 @@ public class Main {
         }
         System.out.println("\nMax 1st:" + max);
         System.out.println("Max 2nd:" + maxScnd);
+        //leetcodePalidrome
+        Solution solution = new Solution();
+        int n = iw.nextInt();
+        if(solution.isPalindrome(n)){
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
     }
 }
