@@ -13,9 +13,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/post")
 public class PostController {
-    private final String template = "post-core-api is working";
     @Autowired
     private PostService postService;
+
+    private final String template = "post-core-api is working";
 
     @GetMapping("/check")
     public ResponseEntity<String> checkPost(@PathVariable String template, @Valid @RequestBody PostModel postModel){

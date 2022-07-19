@@ -11,11 +11,8 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 public class PostModel {
     String postid;
-    @NotNull
     String clientid;
-    @NotNull
     String postRecipientId;
-    @NotNull
     String postItem;
     String status;
 }
