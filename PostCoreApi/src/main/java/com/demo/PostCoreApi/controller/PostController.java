@@ -11,16 +11,17 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/post")
+@RequestMapping("/")
 public class PostController {
     @Autowired
     private PostService postService;
-
-    private final String template = "post-core-api is working";
-
     @GetMapping("/check")
-    public ResponseEntity<String> checkPost(@PathVariable String template, @Valid @RequestBody PostModel postModel){
-        return new ResponseEntity<String>(template,HttpStatus.ACCEPTED);
+    public ResponseEntity<String> checkPost(){
+        try{
+            return ResponseEntity.ok("Сервер работает");
+        } catch(Exception e){
+            return ResponseEntity.badRequest().body("Произошла ошибка");
+        }
     }
 
     @PostMapping
