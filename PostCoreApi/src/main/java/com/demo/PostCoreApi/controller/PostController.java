@@ -2,6 +2,7 @@ package com.demo.PostCoreApi.controller;
 
 import com.demo.PostCoreApi.model.PostModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,14 +12,17 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/post")
 public class PostController {
+    @Autowired
+    Environment env;
+
     @Autowired
     private PostService postService;
     @GetMapping("/check")
     public ResponseEntity<String> checkPost(){
         try{
-            return ResponseEntity.ok("Сервер работает");
+            return ResponseEntity.ok("Сервер работает на порте: " + env.getProperty("local.server.port"));
         } catch(Exception e){
             return ResponseEntity.badRequest().body("Произошла ошибка");
         }
