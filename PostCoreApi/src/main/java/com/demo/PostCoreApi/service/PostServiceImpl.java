@@ -29,8 +29,16 @@ public class PostServiceImpl implements PostService {
     }
 
     @Override
+    public List<PostModel> getAllClient() {return new ArrayList<>(postMap.values());
+    }
+
+    @Override
     public PostModel getPostById(String postid) {
         return postMap.get(postid);
+    }
+
+    @Override
+    public PostModel getClientById(String clientdid) {return postMap.get(clientdid);
     }
 
     @Override

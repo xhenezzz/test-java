@@ -34,7 +34,7 @@ public class PostController {
         return new ResponseEntity<String>("Successful created", HttpStatus.OK);
     }
 
-    @GetMapping("/all")
+    @GetMapping("/allPost")
     public List<PostModel> getAllPosts(){
         return postService.getAllPosts();
     }
@@ -43,6 +43,11 @@ public class PostController {
     public PostModel getPostById(@PathVariable String postid){
         return postService.getPostById(postid);
     }
+
+    @GetMapping("/{clientid}")
+    public PostModel getClientById(@PathVariable String clientid){ return postService.getClientById(clientid);}
+    @GetMapping("/allClient")
+    public List<PostModel> getAllClient(){return postService.getAllClient();}
 
     @PutMapping("/{postid}")
     public ResponseEntity<String>  updatePostById(@PathVariable String postid, @Valid @RequestBody PostModel postModel){
