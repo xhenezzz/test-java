@@ -1,13 +1,12 @@
-package com.demo.PostCoreApi.service;
+package com.demo.PostCoreApi.service.deprecated;
 
 import com.demo.PostCoreApi.model.PostModel;
-import com.fasterxml.jackson.databind.deser.std.UUIDDeserializer;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 
 @Service
-public class PostServiceImpl implements PostService {
+public class PostServiceImplOld implements PostServiceOld {
     protected static final HashMap<String, PostModel> postMap = new HashMap();
 
     static {

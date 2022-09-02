@@ -1,10 +1,10 @@
-package com.demo.PostCoreApi.service;
+package com.demo.PostCoreApi.service.deprecated;
 
 import com.demo.PostCoreApi.model.PostModel;
 
 import java.util.List;
 
-public interface PostService {
+public interface PostServiceOld {
     void createPost(PostModel postModel);
     List<PostModel> getAllPosts();
     List<PostModel> getAllClient();

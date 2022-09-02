@@ -1,63 +1,75 @@
 package com.demo.PostCoreApi.controller;
 
-import com.demo.PostCoreApi.model.PostModel;
+import com.demo.PostCoreApi.model.PostRequest;
+import com.demo.PostCoreApi.model.PostResponse;
+import com.demo.PostCoreApi.service.post.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.demo.PostCoreApi.service.PostService;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController
 @RequestMapping("/post")
 public class PostController {
     @Autowired
-    Environment env;
+    PostService postService;
 
-    @Autowired
-    private PostService postService;
-    @GetMapping("/check")
-    public ResponseEntity<String> checkPost(){
-        try{
-            return ResponseEntity.ok("Сервер работает на порте: " + env.getProperty("local.server.port"));
-        } catch(Exception e){
-            return ResponseEntity.badRequest().body("Произошла ошибка");
-        }
-    }
-
+    @RequestMapping(path="/add/post", method = RequestMethod.POST)
     @PostMapping
-    public ResponseEntity<String> createPost (@Valid @RequestBody PostModel postModel){
-        postService.createPost(postModel);
-        return new ResponseEntity<String>("Successful created", HttpStatus.OK);
+    public PostResponse createPost(@RequestBody PostRequest postRequest){
+        return postService.createPost(postRequest);
     }
 
-    @GetMapping("/allPost")
-    public List<PostModel> getAllPosts(){
-        return postService.getAllPosts();
+    @RequestMapping(path="/add/client", method = RequestMethod.POST)
+    @PostMapping
+    public PostResponse createClient(@RequestBody PostRequest clientRequest){
+        return postService.createClient(clientRequest);
     }
 
-    @GetMapping("/{postid}")
-    public PostModel getPostById(@PathVariable String postid){
+    @RequestMapping(path="/update/{postid}", method = RequestMethod.PUT)
+    @PutMapping
+    public PostResponse updatePostById(@RequestParam String postid, @RequestBody PostRequest postRequest){
+        postRequest.setPostid(postid);
+        return postService.updatePost(postRequest);
+    }
+
+    @RequestMapping(path="/update/{clientid}", method = RequestMethod.PUT)
+    @PutMapping
+    public PostResponse updateClientById(@RequestParam String postid, @RequestBody PostRequest clientRequest){
+        clientRequest.setPostid(postid);
+        return postService.updateClient(clientRequest);
+    }
+
+    @RequestMapping(path="/{postid}", method = RequestMethod.GET)
+    @GetMapping
+    public PostResponse getPostById(@RequestParam String postid){
         return postService.getPostById(postid);
     }
 
-    @GetMapping("/{clientid}")
-    public PostModel getClientById(@PathVariable String clientid){ return postService.getClientById(clientid);}
-    @GetMapping("/allClient")
-    public List<PostModel> getAllClient(){return postService.getAllClient();}
+    @RequestMapping(path="/{clientid}", method = RequestMethod.GET)
+    @GetMapping
+    public PostResponse getClientById(@RequestParam String clientid){return postService.getClientById(clientid);}
 
-    @PutMapping("/{postid}")
-    public ResponseEntity<String>  updatePostById(@PathVariable String postid, @Valid @RequestBody PostModel postModel){
-        postService.updatePostById(postid, postModel);
-        return new ResponseEntity<String>("Successful updated", HttpStatus.OK);
+    @GetMapping("/all/posts")
+    public List<PostResponse> getAllPost(){
+        return postService.getAllPost();
     }
 
-    @DeleteMapping("/{postid}")
-    public ResponseEntity<String> deletePostById(@PathVariable String postid){
+    @GetMapping("/all/clients")
+    public List<PostResponse> getAllClient(){
+        return postService.getAllClient();
+    }
+
+    @RequestMapping(path="/delete/{postid}", method = RequestMethod.DELETE)
+    @DeleteMapping
+    public void deletePostById(@RequestParam String postid){
         postService.deletePostById(postid);
-        return new ResponseEntity<String>("Successful deleted", HttpStatus.OK);
     }
+
+    @RequestMapping(path="/delete/{clientid}", method = RequestMethod.DELETE)
+    @DeleteMapping
+    public void deleteClientById(@RequestParam String clientid){
+        postService.deleteClientById(clientid);
+    }
+
 }
