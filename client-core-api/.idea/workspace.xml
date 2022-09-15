@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34d62756-87f8-4a3a-a38d-283c35d3efc3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/ClientCoreApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/model/ClientRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/model/ClientResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ERoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/clientcoreapi/ClientCoreApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/feign/ClientFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/ClientRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/ClientResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/PostResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/JavaBackEnd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/JavaBackEnd/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/JavaBackEnd/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/PostCoreApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/controller/PostControllerOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/model/PostModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/model/PostRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/model/PostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/repository/PostEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/repository/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/deprecated/PostServiceImplOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/deprecated/PostServiceOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/post/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/post/PostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/test/java/com/demo/PostCoreApi/PostCoreApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/src/main/java/com/example/postapigateway/PostApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-api-gateway/src/test/java/com/example/postapigateway/PostApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.run/Unnamed.run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/src/main/java/com/example/postdiscoveryservice/PostDiscoveryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-discovery-service/src/test/java/com/example/postdiscoveryservice/PostDiscoveryServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/PostOfficeApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/controller/PostOfficeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/feign/PostFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/model/PostModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../post-office-api/src/test/java/com/example/postofficeapi/PostOfficeApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EGxiMz0mdotQVbAMiYRjN1MbfY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "OverrideImplement.combined": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/JavaBackEnd/client-core-api",
+    "settings.editor.selected.configurable": "com.haulmont.jpb.viewMode"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ClientCoreApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.clientcoreapi.ClientCoreApiApplication" />
+      <module name="client-core-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.clientcoreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientCoreApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34d62756-87f8-4a3a-a38d-283c35d3efc3" name="Changes" comment="" />
+      <created>1662235856020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662235856020</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
