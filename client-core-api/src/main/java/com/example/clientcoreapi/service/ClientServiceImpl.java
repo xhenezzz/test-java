@@ -48,6 +48,18 @@ public class ClientServiceImpl implements ClientService{
     }
 
     @Override
+    public ClientResponse getClientByName(String clientName) {
+        ClientEntity clientEntity = clientRepository.getClientEntityByName(clientName);
+        return modelMapper.map(clientEntity, ClientResponse.class);
+    }
+
+    @Override
+    public ClientResponse getClientBySurname(String clientSurname) {
+        ClientEntity clientEntity = clientRepository.getClientEntityBySurname(clientSurname);
+        return modelMapper.map(clientEntity, ClientResponse.class);
+    }
+
+    @Override
     public List<ClientResponse> getAllClient() {
         return clientRepository.getClientEntityBy().stream()
                 .map(client -> modelMapper.map(client, ClientResponse.class))

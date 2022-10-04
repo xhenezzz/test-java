@@ -5,95 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d62756-87f8-4a3a-a38d-283c35d3efc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/ClientCoreApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/model/ClientRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/model/ClientResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ERoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/RoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/clientcoreapi/ClientCoreApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/feign/ClientFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/ClientRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/ClientResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/PostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../service-office-api/src/main/java/com/example/postofficeapi/model/PostResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Hello.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/JavaBackEnd.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/JavaBackEnd/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/JavaBackEnd/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/src/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/PostCoreApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/controller/PostController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/controller/PostControllerOld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/model/PostModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/model/PostRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/model/PostResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/repository/PostEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/repository/PostRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/deprecated/PostServiceImplOld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/deprecated/PostServiceOld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/post/PostService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/java/com/demo/PostCoreApi/service/post/PostServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostCoreApi/src/test/java/com/demo/PostCoreApi/PostCoreApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/src/main/java/com/example/postapigateway/PostApiGatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-api-gateway/src/test/java/com/example/postapigateway/PostApiGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/.run/Unnamed.run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/src/main/java/com/example/postdiscoveryservice/PostDiscoveryServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-discovery-service/src/test/java/com/example/postdiscoveryservice/PostDiscoveryServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/PostOfficeApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/controller/PostOfficeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/feign/PostFeign.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/java/com/example/postofficeapi/model/PostModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../post-office-api/src/test/java/com/example/postofficeapi/PostOfficeApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/ClientCoreApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/ClientCoreApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/clientcoreapi/service/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,10 +74,15 @@
     "OverrideImplement.combined": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/JavaBackEnd/client-core-api",
+    "last_opened_file_path": "D:/JavaBackEnd/service-office-api",
     "settings.editor.selected.configurable": "com.haulmont.jpb.viewMode"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.clientcoreapi.controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ClientCoreApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.clientcoreapi.ClientCoreApiApplication" />
@@ -200,5 +127,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

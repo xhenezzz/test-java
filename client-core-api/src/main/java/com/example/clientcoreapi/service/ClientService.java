@@ -9,6 +9,8 @@ public interface ClientService {
     ClientResponse createClient(ClientRequest clientRequest);
     ClientResponse updateClient(ClientRequest clientRequest);
     ClientResponse getClientById(String clientId);
+    ClientResponse getClientByName(String clientName);
+    ClientResponse getClientBySurname(String clientSurname);
     List<ClientResponse> getAllClient();
     void deleteClientById(String clientId);
 }

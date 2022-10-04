@@ -10,7 +10,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "client_list")
+@Table(name = "client_list",
+        uniqueConstraints = {
+        @UniqueConstraint(columnNames = "clientName"), @UniqueConstraint(columnNames = "clientSurname")})
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

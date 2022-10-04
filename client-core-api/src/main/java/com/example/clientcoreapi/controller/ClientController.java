@@ -34,6 +34,16 @@ public class ClientController {
         return clientService.getClientById(clientRequest.getClientId());
     }
 
+    @GetMapping("/{clientName}")
+    public ClientResponse getClientByName(@RequestBody ClientRequest clientRequest){
+        return clientService.getClientByName(clientRequest.getClientName());
+    }
+
+    @GetMapping("/{clientSurname}")
+    public ClientResponse getClientBySurname(@RequestBody ClientRequest clientRequest){
+        return clientService.getClientBySurname(clientRequest.getClientSurname());
+    }
+
     @GetMapping("/all")
     public List<ClientResponse> getALlClient(){
         return clientService.getAllClient();
